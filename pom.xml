@@ -80,6 +80,8 @@
                     </properties>
                     <systemPropertyVariables>
                         <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
+                        <allure.link.mylink.pattern>https://github.com/vsafontev/SelenoidTest</allure.link.mylink.pattern>
+
                     </systemPropertyVariables>
                 </configuration>
                 <dependencies>
@@ -97,7 +99,7 @@
                 <version>2.12.0</version>
                 <configuration>
                     <reportVersion>${allure.version}</reportVersion>
-                    <resultsDirectory>${project.build.directory}/allure-results</resultsDirectory>
+<!--                    <resultsDirectory>${project.build.directory}/allure-results</resultsDirectory>-->
                 </configuration>
             </plugin>
 
