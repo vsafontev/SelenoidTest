@@ -80,7 +80,7 @@
                     </properties>
                     <systemPropertyVariables>
                         <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
-                        <allure.link.mylink.pattern>https://github.com/vsafontev/SelenoidTest</allure.link.mylink.pattern>
+<!--                        <allure.link.mylink.pattern>https://github.com/vsafontev/SelenoidTest</allure.link.mylink.pattern>-->
 
                     </systemPropertyVariables>
                 </configuration>
