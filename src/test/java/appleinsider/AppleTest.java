@@ -2,8 +2,9 @@ package appleinsider;
 
 
 import core.BaseTest;
-import org.junit.Assert;
-import org.junit.Test;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class AppleTest extends BaseTest {
 

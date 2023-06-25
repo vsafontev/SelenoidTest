@@ -5,6 +5,8 @@ import com.codeborne.selenide.Selenide;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Before;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 
 abstract public class BaseTest {
 
@@ -16,12 +18,12 @@ abstract public class BaseTest {
         Configuration.headless = true;
     }
 
-    @Before
+    @BeforeClass
     public void init(){
         setUp();
     }
 
-    @After
+    @AfterClass
     public void tearDown(){
         Selenide.closeWebDriver();
     }
